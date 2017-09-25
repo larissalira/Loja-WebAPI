@@ -14,7 +14,7 @@ namespace LojaDataModel.Models
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
-        public string QntDisponivel { get; set; }
+        public int QntDisponivel { get; set; }
         public double Preco { get; set; }
         public DateTime DataInsercao{ get; set; }
 

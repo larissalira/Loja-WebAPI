@@ -15,7 +15,6 @@ namespace LojaAPI.Controllers
             _clienteService = new ClienteService();
         }
         
-        // GET api/student/id
         public HttpResponseMessage Get(int id)
         {
             var cliente = _clienteService.Get(id);

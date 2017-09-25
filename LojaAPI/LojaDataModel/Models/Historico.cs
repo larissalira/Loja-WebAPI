@@ -11,12 +11,11 @@ namespace LojaDataModel.Models
     {
         [BsonElement("_id")]
         public int Id { get; set; }
-        public string IdCliente { get; set; }
+        public int IdCliente { get; set; }
         public string Descricao { get; set; }
         public double ValorTotal { get; set; }
         public DateTime DataTransacao { get; set; }
-        public List<int> Produtos  { get; set; }
-
+        public List<Compra> Produtos  { get; set; }
 
         public Historico()
         {
