@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaAPI", "LojaAPI\LojaAPI.csproj", "{EB9430E2-8C16-43F0-93C0-6B27D8EC60B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaDataModel", "LojaDataModel\LojaDataModel.csproj", "{A407DCBC-55DF-4B9A-8175-1274C6E374AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaServices", "LojaServices\LojaServices.csproj", "{8EAD15EA-1BF6-4685-B7EF-7C141C6AF87E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB9430E2-8C16-43F0-93C0-6B27D8EC60B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9430E2-8C16-43F0-93C0-6B27D8EC60B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9430E2-8C16-43F0-93C0-6B27D8EC60B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9430E2-8C16-43F0-93C0-6B27D8EC60B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A407DCBC-55DF-4B9A-8175-1274C6E374AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A407DCBC-55DF-4B9A-8175-1274C6E374AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A407DCBC-55DF-4B9A-8175-1274C6E374AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A407DCBC-55DF-4B9A-8175-1274C6E374AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAD15EA-1BF6-4685-B7EF-7C141C6AF87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAD15EA-1BF6-4685-B7EF-7C141C6AF87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAD15EA-1BF6-4685-B7EF-7C141C6AF87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAD15EA-1BF6-4685-B7EF-7C141C6AF87E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

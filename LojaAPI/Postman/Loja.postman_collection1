@@ -1,0 +1,348 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Loja",
+		"_postman_id": "eb4d1ae7-2a5a-5c78-e934-9458a1fb1280",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:9269/api/cliente",
+					"request": {
+						"url": "http://localhost:9269/api/cliente",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": 1,\r\n  \"PrimeiroNome\": \"Joao\",\r\n  \"UltimoNome\": \"Santos\",\r\n  \"Email\": \"joao@email.com\",\r\n  \"Telefone\": \"3432435\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/cliente",
+					"request": {
+						"url": "http://localhost:9269/api/cliente",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": 2,\r\n  \"PrimeiroNome\": \"Maria\",\r\n  \"UltimoNome\": \"Silva\",\r\n  \"Email\": \"maria@email.com\",\r\n  \"Telefone\": \"3123124\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/cliente",
+					"request": {
+						"url": "http://localhost:9269/api/cliente",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"Id\": 3,\n        \"PrimeiroNome\": \"Carlos\",\n        \"UltimoNome\": \"Junior\",\n        \"Email\": \"carlos@email.com\",\n        \"Telefone\": \"432423\"\n    }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/cliente/1",
+					"request": {
+						"url": "http://localhost:9269/api/cliente/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/cliente",
+					"request": {
+						"url": "http://localhost:9269/api/cliente",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/cliente/2",
+					"request": {
+						"url": "http://localhost:9269/api/cliente/2",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": 2,\r\n  \"PrimeiroNome\": \"Maria\",\r\n  \"UltimoNome\": \"Silva\",\r\n  \"Email\": \"mariasilva@email.com\",\r\n  \"Telefone\": \"5345352\"\r\n}"
+						},
+						"description": "Alteração no email e telefone"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/cliente/1",
+					"request": {
+						"url": "http://localhost:9269/api/cliente/1",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Produtos",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:9269/api/produto",
+					"request": {
+						"url": "http://localhost:9269/api/produto",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n    {\n        \"Id\": 1,\n        \"Nome\": \"Televisao\",\n        \"Descricao\": \"televisão super linda e tecnologica\",\n        \"QntDisponivel\": 8,\n        \"Preco\": 5999.99\n    }\n"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/produto",
+					"request": {
+						"url": "http://localhost:9269/api/produto",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n    {\n        \"Id\": 2,\n        \"Nome\": \"Notebook\",\n        \"Descricao\": \"notebook simples\",\n        \"QntDisponivel\": 5,\n        \"Preco\": 1999.99\n    }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/produto",
+					"request": {
+						"url": "http://localhost:9269/api/produto",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"Id\": 3,\n        \"Nome\": \"Geladeira\",\n        \"Descricao\": \"geladeira ultima geração\",\n        \"QntDisponivel\": 3,\n        \"Preco\": 4999.99\n    }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/produto",
+					"request": {
+						"url": "http://localhost:9269/api/produto",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/produto/2",
+					"request": {
+						"url": "http://localhost:9269/api/produto/2",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/produto/1",
+					"request": {
+						"url": "http://localhost:9269/api/produto/1",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/produto/2",
+					"request": {
+						"url": "http://localhost:9269/api/produto/2",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"Id\": 2,\n        \"Nome\": \"Notebook\",\n        \"Descricao\": \"notebook simples\",\n        \"QntDisponivel\": 10,\n        \"Preco\": 1599.99\n    }"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Historico",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:9269/api/historico",
+					"request": {
+						"url": "http://localhost:9269/api/historico",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": 1,\r\n  \"IdCliente\": 1,\r\n  \"Descricao\": \"descrição de compras do cliente 1\",\r\n  \"ValorTotal\": 8199.97,\r\n  \"Produtos\": [\r\n    {\r\n      \"Id\": 2,\r\n      \"Quantidade\": 2\r\n    },\r\n    {\r\n      \"Id\": 3,\r\n      \"Quantidade\": 1\r\n    }\r\n  ]\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/historico",
+					"request": {
+						"url": "http://localhost:9269/api/historico",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"Id\": 2,\n  \"IdCliente\": 3,\n  \"Descricao\": \"descrição de compras do cliente 3\",\n  \"ValorTotal\": 1599.99,\n  \"Produtos\": [\n    {\n      \"Id\": 2,\n      \"Quantidade\": 1\n    }\n  ]\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/historico",
+					"request": {
+						"url": "http://localhost:9269/api/historico",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/historico/1",
+					"request": {
+						"url": "http://localhost:9269/api/historico/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/historico/1",
+					"request": {
+						"url": "http://localhost:9269/api/historico/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"Id\": 1,\n        \"IdCliente\": 1,\n        \"Descricao\": \"descrição de compras do cliente 1\",\n        \"ValorTotal\": 9799.96,\n        \"DataTransacao\": \"2017-09-25T13:58:48.321Z\",\n        \"Produtos\": [\n            {\n                \"Id\": 2,\n                \"Quantidade\": 3\n            },\n            {\n                \"Id\": 3,\n                \"Quantidade\": 1\n            }\n        ]\n    }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9269/api/historico/2",
+					"request": {
+						"url": "http://localhost:9269/api/historico/2",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
